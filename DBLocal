@@ -1,0 +1,71 @@
+{
+  "ids": {
+    "ListaCalif": 5,
+    "Departamento": 7,
+    "Jefe": 7,
+    "Estudiante": 8,
+    "Categoria": 6,
+    "Personal": 10,
+    "ActividadGrupo": 8,
+    "ListaAsist": 5
+  },
+  "models": {
+    "ListaCalif": {
+      "1": "{\"id\":1,\"numControl\":\"EST-01\",\"idEst\":1,\"nombreEst\":\"BLANCA PÉREZ LÓPEZ\",\"idGrpo\":1,\"nombrePers\":\"LEONARDO MARTÍNEZ GONZÁLEZ\",\"nombreAct\":\"CURSO DE LECTURA Y REDACCIÓN\",\"califEst\":\"80\"}",
+      "2": "{\"id\":2,\"numControl\":\"EST-01\",\"idEst\":1,\"nombreEst\":\"BLANCA PÉREZ LÓPEZ\",\"idGrpo\":2,\"nombrePers\":\"FERNANDO CARRANZA CAMPOSS\",\"nombreAct\":\"CURSO DE MATEMÁTICAS V\",\"califEst\":\"90\"}",
+      "3": "{\"id\":3,\"numControl\":\"EST-02\",\"idEst\":2,\"nombreEst\":\"MARIELA NAVA RAMÍREZ\",\"idGrpo\":1,\"nombrePers\":\"LEONARDO MARTÍNEZ GONZÁLEZ\",\"nombreAct\":\"CURSO DE LECTURA Y REDACCIÓN\",\"califEst\":\"100\"}",
+      "4": "{\"numControl\":\"EST-02\",\"idEst\":2,\"nombreEst\":\"MARIELA NAVA RAMÍREZ\",\"idGrpo\":3,\"nombrePers\":\"FERNANDO CARRANZA CAMPOSS\",\"nombreAct\":\"MOC PERSONA INSTITUCIONAL\",\"califEst\":\"Calificación sin Registrar\",\"id\":4}"
+    },
+    "Departamento": {
+      "1": "{\"id\":1,\"claveDepto\":\"DEP-01\",\"nombreDepto\":\"SISTEMAS Y COMPUTACION\",\"subdireccionDepto\":\"ACADEMICA\"}",
+      "2": "{\"id\":2,\"claveDepto\":\"DEP-02\",\"nombreDepto\":\"QUIMICA Y BIOQUIMICAS\",\"subdireccionDepto\":\"ACADEMICA\"}",
+      "3": "{\"claveDepto\":\"DEP-03\",\"nombreDepto\":\"ECONOMICO ADMINISTRATIVO\",\"subdireccionDepto\":\"ACADEMICA \",\"id\":3}",
+      "4": "{\"claveDepto\":\"DEP-04\",\"nombreDepto\":\"DIVISIÓN DE ESTUDIOS PROFESIONALES\",\"subdireccionDepto\":\"ACADEMICA\",\"id\":4}",
+      "5": "{\"claveDepto\":\"DEP-05\",\"nombreDepto\":\"DESARROLLO ACADÉMICO\",\"subdireccionDepto\":\"ACADEMICA\",\"id\":5}",
+      "6": "{\"id\":6,\"claveDepto\":\"DEP-06\",\"nombreDepto\":\"ARQUITECTURA\",\"subdireccionDepto\":\"ACADEMICA\"}"
+    },
+    "Jefe": {
+      "1": "{\"claveJefe\":\"JEF-01\",\"nombreJefe\":\"JOSE MANUEL PADILLA AGUILAR\",\"idDepto\":1,\"id\":1}",
+      "2": "{\"claveJefe\":\"JEF-02\",\"nombreJefe\":\"CARLA ALVAREZ SANTILLAN \",\"idDepto\":2,\"id\":2}",
+      "3": "{\"claveJefe\":\"JEF-03\",\"nombreJefe\":\"ESMERALDA BERNICE IREPAN\",\"idDepto\":3,\"id\":3}",
+      "4": "{\"claveJefe\":\"JEF-04\",\"nombreJefe\":\"MARTHA ELIZABETH GONZÁLEZ ZEPEDA\",\"idDepto\":4,\"id\":4}",
+      "5": "{\"claveJefe\":\"JEF-05\",\"nombreJefe\":\"MANUEL CARRANZA \",\"idDepto\":5,\"id\":5}",
+      "6": "{\"claveJefe\":\"JEF-06\",\"nombreJefe\":\"PATRICIA GÓMEZ RABELL\",\"idDepto\":6,\"id\":6}"
+    },
+    "Estudiante": {
+      "1": "{\"numControl\":\"EST-01\",\"nombreEst\":\"BLANCA PÉREZ LÓPEZ\",\"carreraEst\":\"ING. SISTEMAS\",\"idDepto\":1,\"id\":1}",
+      "2": "{\"id\":2,\"numControl\":\"EST-02\",\"nombreEst\":\"MARIELA NAVA RAMÍREZ\",\"carreraEst\":\"ING.  SISTEMAS\",\"idDepto\":1}",
+      "6": "{\"numControl\":\"EST-10\",\"nombreEst\":\"MARÍA DEL CARMEN NIÑO ZAMORA\",\"carreraEst\":\"ING BIOQUIMICA\",\"idDepto\":2,\"id\":6}",
+      "7": "{\"numControl\":\"EST-12\",\"nombreEst\":\"ROLANDO MAGAÑA SUÁREZ\",\"carreraEst\":\"ING BIOQUIMICA\",\"idDepto\":2,\"id\":7}"
+    },
+    "Categoria": {
+      "1": "{\"claveCat\":\"CAT-01\",\"nombreCat\":\"CURSOS\",\"id\":1}",
+      "2": "{\"claveCat\":\"CAT-02\",\"nombreCat\":\"MOCS\",\"id\":2}",
+      "3": "{\"claveCat\":\"CAT-03\",\"nombreCat\":\"CONGRESOS\",\"id\":3}",
+      "4": "{\"claveCat\":\"CAT-04\",\"nombreCat\":\"TUTORÍAS \",\"id\":4}",
+      "5": "{\"claveCat\":\"CAT-05\",\"nombreCat\":\"EXTRAESCOLAR\",\"id\":5}"
+    },
+    "Personal": {
+      "1": "{\"clavePers\":\"PER-01\",\"nombrePers\":\"LEONARDO MARTÍNEZ GONZÁLEZ\",\"idDepto\":1,\"id\":1}",
+      "2": "{\"id\":2,\"clavePers\":\"PER-02\",\"nombrePers\":\"FERNANDO CARRANZA CAMPOSS\",\"idDepto\":1}",
+      "3": "{\"clavePers\":\"PER-03\",\"nombrePers\":\"ERICK DALET VILLANUEVA MASCORT\",\"idDepto\":1,\"id\":3}",
+      "5": "{\"id\":5,\"clavePers\":\"PER-04\",\"nombrePers\":\"ADRIANA MONROE CABRERA\",\"idDepto\":1}",
+      "8": "{\"clavePers\":\"PER-11\",\"nombrePers\":\"ANA ESTHER JIMÉNEZ ALONSO\",\"idDepto\":2,\"id\":8}",
+      "9": "{\"clavePers\":\"PER-12\",\"nombrePers\":\"NAHUM CASTELLANOS FLORES\",\"idDepto\":2,\"id\":9}"
+    },
+    "ActividadGrupo": {
+      "1": "{\"claveGrpo\":\"ACT-01\",\"idCat\":1,\"idDepto\":1,\"nombreAct\":\"CURSO DE LECTURA Y REDACCIÓN\",\"idPers\":1,\"horarioAct\":\"9-10\",\"periodoAct\":\"ENERO\",\"aperturaAct\":\"D\",\"id\":1}",
+      "2": "{\"id\":2,\"claveGrpo\":\"ACR-02\",\"idCat\":1,\"idDepto\":1,\"nombreAct\":\"CURSO DE MATEMÁTICAS V\",\"idPers\":2,\"horarioAct\":\"10-14\",\"periodoAct\":\"ENERO A MARZO\",\"aperturaAct\":\"D\"}",
+      "3": "{\"claveGrpo\":\"ACT-03\",\"idCat\":2,\"idDepto\":1,\"nombreAct\":\"MOC PERSONA INSTITUCIONAL\",\"idPers\":2,\"horarioAct\":\"13-14 L-V\",\"periodoAct\":\"MARZO\",\"aperturaAct\":\"D\",\"id\":3}",
+      "4": "{\"claveGrpo\":\"ACT-04\",\"idCat\":3,\"idDepto\":1,\"nombreAct\":\"CONGRESO SISTEMAS\",\"idPers\":2,\"horarioAct\":\"19-20 L-V\",\"periodoAct\":\"MAYO\",\"aperturaAct\":\"D\",\"id\":4}",
+      "5": "{\"id\":5,\"claveGrpo\":\"ACT-05\",\"idCat\":6,\"idDepto\":1,\"nombreAct\":\"DELFÍN 2020\",\"idPers\":1,\"horarioAct\":\"L-V  13-15\",\"periodoAct\":\"MARZO\",\"aperturaAct\":\"D\"}",
+      "7": "{\"claveGrpo\":\"ACT-10\",\"idCat\":1,\"idDepto\":2,\"nombreAct\":\"CURSO DE HÁBITOS ALIMENTICIOS\",\"idPers\":8,\"horarioAct\":\"L-V 13-15\",\"periodoAct\":\"MARZO\",\"aperturaAct\":\"I\",\"id\":7}"
+    },
+    "ListaAsist": {
+      "1": "{\"id\":1,\"numControl\":\"EST-01\",\"idEst\":1,\"nombreEst\":\"BLANCA PÉREZ LÓPEZ\",\"idGrpo\":1,\"nombrePers\":\"LEONARDO MARTÍNEZ GONZÁLEZ\",\"nombreAct\":\"CURSO DE LECTURA Y REDACCIÓN\",\"asistEst\":4}",
+      "2": "{\"numControl\":\"EST-01\",\"idEst\":1,\"nombreEst\":\"BLANCA PÉREZ LÓPEZ\",\"idGrpo\":2,\"nombrePers\":\"FERNANDO CARRANZA CAMPOSS\",\"nombreAct\":\"CURSO DE MATEMÁTICAS V\",\"asistEst\":0,\"id\":2}",
+      "3": "{\"id\":3,\"numControl\":\"EST-02\",\"idEst\":2,\"nombreEst\":\"MARIELA NAVA RAMÍREZ\",\"idGrpo\":1,\"nombrePers\":\"LEONARDO MARTÍNEZ GONZÁLEZ\",\"nombreAct\":\"CURSO DE LECTURA Y REDACCIÓN\",\"asistEst\":3}",
+      "4": "{\"numControl\":\"EST-02\",\"idEst\":2,\"nombreEst\":\"MARIELA NAVA RAMÍREZ\",\"idGrpo\":3,\"nombrePers\":\"FERNANDO CARRANZA CAMPOSS\",\"nombreAct\":\"MOC PERSONA INSTITUCIONAL\",\"asistEst\":0,\"id\":4}"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "ids": {
+    "Categoria": 8,
+    "Departamento": 9,
+    "Jefe": 6,
+    "Personal": 7,
+    "Estudiante": 8,
+    "ActividadGrupo": 6,
+    "ListaCalif": 6,
+    "ListaAsist": 6
+  },
+  "models": {
+    "Categoria": {
+      "1": "{\"claveCat\":\"CAT-01\",\"nombreCat\":\"CURSOS\",\"id\":1}",
+      "2": "{\"claveCat\":\"CAT-02\",\"nombreCat\":\"MOCS\",\"id\":2}",
+      "3": "{\"claveCat\":\"CAT-03\",\"nombreCat\":\"CONGRESOS\",\"id\":3}",
+      "4": "{\"id\":4,\"claveCat\":\"CAT-04\",\"nombreCat\":\"TUTORIAS\"}",
+      "5": "{\"claveCat\":\"CAT-05\",\"nombreCat\":\"EXTRAESCOLARES\",\"id\":5}",
+      "6": "{\"id\":6,\"claveCat\":\"CAT-06\",\"nombreCat\":\"DELFIN\"}",
+      "7": "{\"claveCat\":\"CAT-07\",\"nombreCat\":\"TALENTO EMPRENDEDOR\",\"id\":7}"
+    },
+    "Departamento": {
+      "1": "{\"claveDepto\":\"DEP-01\",\"nombreDepto\":\"SISTEMAS Y COMPUTACION\",\"subdireccionDepto\":\"ACADEMICA\",\"id\":1}",
+      "2": "{\"id\":2,\"claveDepto\":\"DEP-02\",\"nombreDepto\":\"QUIMICA Y BIOQUIMICA\",\"subdireccionDepto\":\"ACADEMICA\"}",
+      "3": "{\"claveDepto\":\"DEP-03\",\"nombreDepto\":\"ING. INDUSTRIAL\",\"subdireccionDepto\":\"ACADEMICA\",\"id\":3}",
+      "4": "{\"claveDepto\":\"DEP-04\",\"nombreDepto\":\"ECONOMICO ADMINISTRATIVAS\",\"subdireccionDepto\":\"ACADEMICA\",\"id\":4}",
+      "5": "{\"claveDepto\":\"DEP-05\",\"nombreDepto\":\"EXTRAESCOLARES\",\"subdireccionDepto\":\"PLANEACION\",\"id\":5}",
+      "6": "{\"claveDepto\":\"DEP-06\",\"nombreDepto\":\"DESARROLLO ACADEMICO\",\"subdireccionDepto\":\"ACADEMICA\",\"id\":6}",
+      "8": "{\"claveDepto\":\"DEP-07\",\"nombreDepto\":\"CIENCIAS DE LA TIERRA\",\"subdireccionDepto\":\"ACADEMICA\",\"id\":8}"
+    },
+    "Jefe": {
+      "1": "{\"id\":1,\"claveJefe\":\"JEF-01\",\"nombreJefe\":\"JOSE MANUEL PADILLA\",\"idDepto\":1}",
+      "2": "{\"claveJefe\":\"JEF-02\",\"nombreJefe\":\"CARLA\",\"idDepto\":2,\"id\":2}",
+      "3": "{\"claveJefe\":\"JEF-03\",\"nombreJefe\":\"ESMERALDA\",\"idDepto\":3,\"id\":3}",
+      "4": "{\"claveJefe\":\"JEF-04\",\"nombreJefe\":\"OCTAVIO\",\"idDepto\":4,\"id\":4}"
+    },
+    "Personal": {
+      "1": "{\"id\":1,\"clavePers\":\"PER-01\",\"nombrePers\":\"FERNANDO CARRANZA \",\"idDepto\":1}",
+      "2": "{\"clavePers\":\"PER-02\",\"nombrePers\":\"ERICK DALET VILLANUEVA MASCORT\",\"idDepto\":1,\"id\":2}",
+      "3": "{\"id\":3,\"clavePers\":\"PER03\",\"nombrePers\":\"LEONARDO MARTÍNEZ GONZÁLEZ\",\"idDepto\":1}",
+      "4": "{\"clavePers\":\"PER-04\",\"nombrePers\":\"OCTAVIO RAMÍREZ ROJAS\",\"idDepto\":1,\"id\":4}",
+      "5": "{\"clavePers\":\"PER-05\",\"nombrePers\":\"ADRIANA MONROE CABRERA\",\"idDepto\":1,\"id\":5}"
+    },
+    "Estudiante": {
+      "1": "{\"numControl\":\"EST-01\",\"nombreEst\":\"LUIS EDUARDO MEZA SILVERADO\",\"carreraEst\":\"ING. SISTEMAS\",\"idDepto\":1,\"id\":1}",
+      "2": "{\"numControl\":\"EST-02\",\"nombreEst\":\"OCTAVIO MÁLAGA UGALDE\",\"carreraEst\":\"ING.  SISTEMAS\",\"idDepto\":1,\"id\":2}",
+      "3": "{\"id\":3,\"numControl\":\"EST-03\",\"nombreEst\":\"CARLOS POO TAPIA\",\"carreraEst\":\"ING. SISTEMAS\",\"idDepto\":1}",
+      "4": "{\"numControl\":\"EST-04\",\"nombreEst\":\"FLAVIO  CAMPUZANO RAVELO\",\"carreraEst\":\"ING.  SISTEMAS \",\"idDepto\":1,\"id\":4}",
+      "5": "{\"id\":5,\"numControl\":\"EST-05\",\"nombreEst\":\"MANUEL SILVA NAVA\",\"carreraEst\":\"ING.  SISTEMAS\",\"idDepto\":2}",
+      "6": "{\"id\":6,\"numControl\":\"EST-06\",\"nombreEst\":\"JORGE ALEJANDRO RAMÍREZ REYES\",\"carreraEst\":\"ING.  SISTEMAS\",\"idDepto\":2}"
+    },
+    "ActividadGrupo": {
+      "1": "{\"id\":1,\"claveGrpo\":\"GPO-01\",\"idCat\":1,\"idDepto\":1,\"nombreAct\":\"CURSO LECTURA Y REDACCIÓN B\",\"idPers\":1,\"horarioAct\":\"L-V 9-10\",\"periodoAct\":\"18 ENE-18 FEB\",\"aperturaAct\":\"D\"}",
+      "2": "{\"id\":2,\"claveGrpo\":\"GPO-02\",\"idCat\":1,\"idDepto\":1,\"nombreAct\":\"CURSO REACT NATIVE INTENSIVO\",\"idPers\":2,\"horarioAct\":\"L-V 15-19\",\"periodoAct\":\"18 ENE - 18 MAR\",\"aperturaAct\":\"D\"}",
+      "4": "{\"claveGrpo\":\"GPO-04\",\"idCat\":1,\"idDepto\":2,\"nombreAct\":\"CURSO HÁBITOS  ALIMENTICIOS \",\"idPers\":2,\"horarioAct\":\"11-12 L-V\",\"periodoAct\":\"MARZO\",\"aperturaAct\":\"I\",\"id\":4}",
+      "5": "{\"id\":5,\"claveGrpo\":\"GPO-05\",\"idCat\":3,\"idDepto\":2,\"nombreAct\":\"CONGRESO BIOQUIMICA 2020\",\"idPers\":3,\"horarioAct\":\"9-18 M.J.V\",\"periodoAct\":\"MAY 1.2.3 2020\",\"aperturaAct\":\"D\"}"
+    },
+    "ListaCalif": {
+      "1": "{\"numControl\":\"EST-05\",\"idEst\":5,\"idGrpo\":4,\"califEst\":\"Calificación sin Registrar\",\"id\":1}",
+      "2": "{\"numControl\":\"EST-06\",\"idEst\":6,\"idGrpo\":4,\"califEst\":\"Calificación sin Registrar\",\"id\":2}",
+      "3": "{\"numControl\":\"EST-05\",\"idEst\":5,\"idGrpo\":5,\"califEst\":\"Calificación sin Registrar\",\"id\":3}",
+      "4": "{\"numControl\":\"EST-06\",\"idEst\":6,\"idGrpo\":5,\"califEst\":\"Calificación sin Registrar\",\"id\":4}",
+      "5": "{\"numControl\":\"EST-04\",\"idEst\":4,\"idGrpo\":1,\"califEst\":\"Calificación sin Registrar\",\"id\":5}"
+    },
+    "ListaAsist": {
+      "1": "{\"numControl\":\"EST-05\",\"idEst\":5,\"idGrpo\":4,\"asistEst\":0,\"id\":1}",
+      "2": "{\"numControl\":\"EST-06\",\"idEst\":6,\"idGrpo\":4,\"asistEst\":0,\"id\":2}",
+      "3": "{\"numControl\":\"EST-05\",\"idEst\":5,\"idGrpo\":5,\"asistEst\":0,\"id\":3}",
+      "4": "{\"numControl\":\"EST-06\",\"idEst\":6,\"idGrpo\":5,\"asistEst\":0,\"id\":4}",
+      "5": "{\"numControl\":\"EST-04\",\"idEst\":4,\"idGrpo\":1,\"asistEst\":0,\"id\":5}"
+    }
+  }
+}
